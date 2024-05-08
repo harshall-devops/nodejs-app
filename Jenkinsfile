@@ -11,6 +11,7 @@ tools{
 }
      environment {
             CI = 'true'
+npm_config_prefix = '/home/ubuntu/.npm-global'
         }
     stages {
         stage('Build') {
